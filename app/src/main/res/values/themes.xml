@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Compass" parent="Theme.AppCompat.DayNight.NoActionBar" />
+
+    <style name="Theme.Compass.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splashscreen_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Compass</item>
+    </style>
+
+    <style name="Theme.Compass.Translucent" parent="Theme.Compass">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="TextHeadline" parent="TextAppearance.Compat.Notification.Title">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="TextLabel" parent="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+</resources>

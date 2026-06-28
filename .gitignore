@@ -1,0 +1,32 @@
+# Built artifacts
+.gradle/
+build/
+.kotlin/
+
+# IDE files
+.idea/
+!.idea/icon.png
+!.idea/icon.svg
+*.iml
+
+# Local configuration
+local.properties
+
+# Certificates & Keystores
+cert/
+*.jks
+*.keystore
+*.p12
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.ini
+
+# Logs
+*.log
+
+# Captures and Native
+/captures
+.externalNativeBuild
+.cxx

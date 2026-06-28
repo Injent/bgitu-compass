@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Компас</string>
+
+    <string name="feature_schedule_forTomorrow">на завтра</string>
+    <string name="feature_schedule_forToday">на сегодня</string>
+    <string name="feature_schedule_failedToLoadSchedule">Не удалось загрузить расписание</string>
+    <string name="feature_schedule_evenWeek">Четная неделя</string>
+    <string name="feature_schedule_oddWeek">Нечетная неделя</string>
+    <string name="feature_schedule_button_selectGroup">Выбрать группу</string>
+    <string name="feature_schedule_selectGroup">Выберите группу</string>
+    <string name="feature_schedule_selectGroup_description">Её можно сменить позже</string>
+    <string name="feature_schedule_dropped">Новое расписание</string>
+    <string name="feature_schedule_dropped_description">Выберите группы заново</string>
+    <string name="feature_schedule_lecture_abbreviation">Л</string>
+    <string name="feature_schedule_practice_abbreviation">П</string>
+    <string name="feature_schedule_weekend">Выходной!</string>
+    <string name="feature_schedule_showRemainingTime">Показывать оставшееся время</string>
+    <string name="feature_schedule_refreshed">синхронизировано</string>
+
+    <string name="feature_schedule_status_before_start">До начала %s</string>
+    <string name="feature_schedule_status_break_in">Перерыв через %s</string>
+    <string name="feature_schedule_status_break_end_in">Конец перерыва через %s</string>
+    <string name="feature_schedule_status_lesson_end_in">До конца пары %s</string>
+    <string name="feature_schedule_status_next_lesson_in">Следующая пара через %s</string>
+
+    <string name="feature_schedule_lesson_starts_in">Начало через %s</string>
+    <string name="feature_schedule_lesson_started_ago">Началась %s назад</string>
+    <string name="feature_schedule_lesson_finished">Закончилась %s назад</string>
+
+    <string name="break_starts_in">Перерыв через %s</string>
+    <string name="break_ends_in">Конец перерыва через %s</string>
+    <string name="break_finished_ago">Перерыв был %s назад</string>
+
+    <string name="core_utilUi_lessonLocationFull">ауд. %1$s, к. %2$s</string>
+    <string name="core_utilUi_lessonLocationOnlyBuilding">к. %1$s</string>
+
+    <string name="core_data_open_link">Открыть ссылку</string>
+    <string name="core_data_channel_general">Общие</string>
+    <string name="core_data_channel_liveUpdate">Live update расписание</string>
+    <string name="core_data_then_end_of_classes">Окончание занятий</string>
+    <string name="core_data_break_title">Перерыв</string>
+    <string name="core_data_now">Сейчас</string>
+    <string name="core_data_next">Далее</string>
+    <string name="core_data_starts_soon">Скоро</string>
+    <string name="core_data_turn_off_for_today">Отключить на сегодня</string>
+
+    <string name="feature_groups_myGroups">Мои группы</string>
+    <string name="feature_groups_addGroup">Добавить группу</string>
+    <string name="feature_groups_searchGroupName">Имя группы</string>
+    <string name="feature_groups_hasNoGroups">Нет групп</string>
+    <string name="feature_groups_cantAddGroup">Нельзя добавить группу без интернета</string>
+    <string name="feature_groups_delete">Удалить</string>
+    <string name="feature_groups_moveUp">Вверх</string>
+    <string name="feature_groups_moveDown">Вниз</string>
+
+    <string name="feature_settings_help">Тех. поддержка</string>
+    <string name="feature_settings_aboutApp">О приложении</string>
+    <string name="feature_settings_telegramBot">Телеграм бот</string>
+
+    <string name="feature_settings_liveUpdateNotification">Live update уведомление</string>
+    <string name="feature_settings_currentLessons">Текущие занятия</string>
+    <string name="feature_settings_liveUpdateNotification_description">Расписание выбранной группы будет показываться в шторке уведомлений и на экране блокировки</string>
+    <string name="feature_settings_design">Оформление</string>
+    <string name="feature_settings_design_description">Тема, размытие</string>
+    <string name="feature_settings_notifications_scheduleChanges">Изменения расписания</string>
+    <string name="feature_settings_notifications_broadcast">Объявления</string>
+    <string name="feature_settings_notificationsAreDisallowed">Уведомления запрещены</string>
+    <string name="feature_settings_allow">Разрешить</string>
+    <string name="feature_settings_allowNotifications">Разрешите уведомления</string>
+    <string name="feature_settings_wantToReceiveNotifications">Хотите получать уведомления?</string>
+    <string name="feature_settings_allowNotifications_description">Мы не будем рассылать вам спам. Уведомления нужны чтобы вы могли узнавать об изменениях в расписании и смотреть расписание через Live Update уведомление</string>
+    <string name="feature_settings_userAgreement">Пользовательское соглашение</string>
+    <string name="feature_settings_notifications">Уведомления</string>
+    <string name="feature_settings_notifications_description">Текущие занятия, объявления</string>
+    <string name="feature_settings_data">Данные</string>
+    <string name="feature_settings_data_description">Вид преподавателя, cинхронизация</string>
+    <string name="feature_settings_teacherView">Вид для преподавателя</string>
+    <string name="feature_settings_sync">Синхронизация</string>
+    <string name="feature_settings_misc">Прочее</string>
+    <string name="feature_settings_uiTheme">Тема приложения</string>
+    <string name="feature_settings_uiTheme_auto">Авто</string>
+    <string name="feature_settings_uiTheme_dark">Темная</string>
+    <string name="feature_settings_uiTheme_light">Светлая</string>
+    <string name="feature_settings_blur">Размытие</string>
+    <string name="feature_settings_blur_description">Размытие элементов интерфейса</string>
+    <string name="feature_settings_highQualityBlur">Качественное размытие</string>
+    <string name="feature_settings_highQualityBlur_description">Если вы замечаете лаги, то отключите эту опцию в угоду производительности</string>
+    <string name="feature_settings_noGroupsAvailable">Не выбрано ни одной группы</string>
+    <string name="feature_settings_appVersionName">Версия приложения %s</string>
+    <string name="feature_settings_mobile_dev_name">Елисей Веревкин</string>
+    <string name="feature_settings_backend_dev">Кирилл Пудов</string>
+    <string name="feature_settings_mobile_dev_role">Разработчик приложения</string>
+    <string name="feature_settings_backend_dev_role">Разработчик Telegram-бота и серверной логики</string>
+    <string name="feature_settings_syncAllGroups">Синхронизировать все группы</string>
+    <string name="feature_settings_syncAllGroups_description">Расписание всех групп будет обновляться при открытии приложения</string>
+
+    <string name="feature_teachers_teacherLastName">Фамилия преподавателя</string>
+    <string name="feature_teachers_bookmarks">Сохранено</string>
+    <string name="feature_teachers_empty">Пусто</string>
+    <string name="feature_teachers_iAmATeacher">Я преподаватель</string>
+    <string name="feature_teachers_areYouATeacher">Вы преподаватель?</string>
+    <string name="feature_teachers_areYouATeacher_description">Интерфейс примет удобный вид для преподавателя</string>
+    <string name="feature_teachers_selectTeacher">Выбрать преподавателя</string>
+    <string name="feature_teachers_selectTeacher_description">Можно поменять позже</string>
+    <string name="feature_teachers_notSelected">Не выбрано</string>
+    <string name="feature_teachers_failedToLoadSchedule">Не удалось загрузить расписание</string>
+
+    <string name="feature_widget_description">Расписание</string>
+    <string name="feature_widget_design">Дизайн</string>
+    <string name="feature_widget_save">Сохранить</string>
+    <string name="feature_widget_theme">Цвета</string>
+    <string name="feature_widget_group">Группа</string>
+    <string name="feature_widget_theme_light">Светлая</string>
+    <string name="feature_widget_theme_dark">Темная</string>
+    <string name="feature_widget_theme_dynamic">Динамическая</string>
+    <string name="feature_widget_theme_auto">Авто</string>
+    <string name="feature_widget_noGroup">Нет группы</string>
+    <string name="feature_widget_today">Сегодня</string>
+    <string name="feature_widget_yesterday">Вчера</string>
+    <string name="feature_widget_tomorrow">Завтра</string>
+    <string name="feature_widget_scheduleIsNotDownloaded">Расписание не скачано</string>
+    <string name="feature_widget_download">Скачать</string>
+    <string name="feature_widget_select">Выбрать</string>
+    <string name="feature_widget_selectGroup">Выбрать группу</string>
+    <string name="feature_widget_settings">Настройки</string>
+    <string name="feature_widget_groupNotSelected">Группа не выбрана</string>
+    <string name="feature_widget_refreshed">Обновлено %s</string>
+    <string name="feature_widget_crashError">Возникла ошибка\nУдалите виджет и создайте заново</string>
+    <string-array name="feature_widget_demo_subjects">
+        <item>Математика</item>
+        <item>Физическая культура</item>
+        <item>Иностранный язык</item>
+    </string-array>
+    <string-array name="feature_widget_demo_buildings">
+        <item>к. 1</item>
+        <item>к. 1</item>
+        <item>к. 2</item>
+    </string-array>
+    <string-array name="feature_widget_demo_classrooms">
+        <item>304</item>
+        <item> </item>
+        <item>240</item>
+    </string-array>
+
+    <string name="app_label_schedule">расписание</string>
+    <string name="app_label_students">студенты</string>
+    <string name="app_label_teachers">преподаватели</string>
+    <string name="app_label_settings">настройки</string>
+
+    <string name="scheduleIsNotPublishedYet">Расписание еще не опубликовано</string>
+    <string name="errorHappened">Возникла ошибка</string>
+    <string name="noInternet">Нет интернета</string>
+    <string name="nothingFound">Ничего не найдено</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="time_now">Сейчас</string>
+    <string name="feature_widget_transparency">Прозрачность</string>
+    <string name="feature_settings_shouldShowTomorrowSchedule_description">Показывать расписание на завтра если сегодня пары уже закончились</string>
+    <string name="feature_settings_shouldShowTomorrowSchedule">Показывать расписание на завтра</string>
+    <string name="feature_update_updateAvailable">Доступно обновление</string>
+    <string name="feature_update_downloading">Скачивание…</string>
+    <string name="feature_update_updateFailed">Скачать заново</string>
+    <string name="feature_update_pending">Скачать</string>
+    <string name="feature_update_install">Установить</string>
+    <string name="feature_update_pleaseDontCloseTheApp">Пожалуйста не закрывайте приложение</string>
+    <string name="feature_update_error">Возникла ошибка при установке</string>
+    <string name="app_label_news">новости</string>
+    <string name="feature_notifications_moreDetails">Подробнее</string>
+    <string name="feature_notifications_markAsRead">Пометить прочитанным</string>
+    <string name="feature_notifications_all">Все</string>
+    <string name="feature_notifications_unread">Непрочитанные</string>
+    <string name="feature_settings_widget">Виджет расписания</string>
+    <string name="feature_settings_widget_description">Нажмите чтобы добавить</string>
+    <string name="feature_widget_launcherNotSupportWidgetPinning">Ваш лаунчер не поддерживает быстрое добавление</string>
+    <string name="feature_news_noNews">Пока нет новостей</string>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+        <item quantity="other">%d минут назад</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+        <item quantity="other">%d часов назад</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+        <item quantity="other">%d дней назад</item>
+    </plurals>
+
+    <string name="today_at">Сегодня, в %s</string>
+    <string name="tomorrow_at">Завтра, в %s</string>
+    <string name="feature_settings_liveUpdateNotification_notScheduled">Не запланировано</string>
+    <plurals name="in_days_at">
+        <item quantity="one">Через %1$d день, в %2$s</item>
+        <item quantity="few">Через %1$d дня, в %2$s</item>
+        <item quantity="many">Через %1$d дней, в %2$s</item>
+        <item quantity="other">Через %1$d дня, в %2$s</item>
+    </plurals>
+</resources>

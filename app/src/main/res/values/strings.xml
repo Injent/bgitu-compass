@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Компас</string>
+
+    <string name="feature_schedule_forTomorrow">for tomorrow</string>
+    <string name="feature_schedule_forToday">for today</string>
+    <string name="feature_schedule_failedToLoadSchedule">Failed to load schedule</string>
+    <string name="feature_schedule_evenWeek">Even week</string>
+    <string name="feature_schedule_oddWeek">Odd week</string>
+    <string name="feature_schedule_button_selectGroup">Select group</string>
+    <string name="feature_schedule_selectGroup">Select a group</string>
+    <string name="feature_schedule_selectGroup_description">You can change it later</string>
+    <string name="feature_schedule_dropped">New schedule</string>
+    <string name="feature_schedule_dropped_description">Please select your groups again</string>
+    <string name="feature_schedule_lecture_abbreviation">L</string>
+    <string name="feature_schedule_practice_abbreviation">P</string>
+    <string name="feature_schedule_weekend">Day off!</string>
+    <string name="feature_schedule_showRemainingTime">Show remaining time</string>
+    <string name="feature_schedule_refreshed">synced</string>
+
+    <string name="feature_schedule_status_before_start">%s until start</string>
+    <string name="feature_schedule_status_break_in">Break in %s</string>
+    <string name="feature_schedule_status_break_end_in">Break ends in %s</string>
+    <string name="feature_schedule_status_lesson_end_in">%s until class ends</string>
+    <string name="feature_schedule_status_next_lesson_in">Next class in %s</string>
+
+    <string name="feature_schedule_lesson_starts_in">Starts in %s</string>
+    <string name="feature_schedule_lesson_started_ago">Started %s ago</string>
+    <string name="feature_schedule_lesson_finished">Ended %s ago</string>
+
+    <string name="break_starts_in">Break in %s</string>
+    <string name="break_ends_in">Break ends in %s</string>
+    <string name="break_finished_ago">Break was %s ago</string>
+
+    <string name="core_utilUi_lessonLocationFull">rm. %1$s, bldg. %2$s</string>
+    <string name="core_utilUi_lessonLocationOnlyBuilding">bldg. %1$s</string>
+
+    <string name="core_data_open_link">Open link</string>
+    <string name="core_data_channel_general">General</string>
+    <string name="core_data_channel_liveUpdate">Live update schedule</string>
+    <string name="core_data_then_end_of_classes">End of classes</string>
+    <string name="core_data_break_title">Break</string>
+    <string name="core_data_now">Now</string>
+    <string name="core_data_next">Next</string>
+    <string name="core_data_starts_soon">Soon</string>
+    <string name="core_data_turn_off_for_today">Turn off for today</string>
+
+    <string name="feature_groups_myGroups">My groups</string>
+    <string name="feature_groups_addGroup">Add group</string>
+    <string name="feature_groups_searchGroupName">Group name</string>
+    <string name="feature_groups_hasNoGroups">No groups</string>
+    <string name="feature_groups_cantAddGroup">Cannot add group without internet connection</string>
+    <string name="feature_groups_delete">Delete</string>
+    <string name="feature_groups_moveUp">Move up</string>
+    <string name="feature_groups_moveDown">Move down</string>
+
+    <string name="feature_settings_help">Support</string>
+    <string name="feature_settings_aboutApp">About app</string>
+    <string name="feature_settings_telegramBot">Telegram bot</string>
+
+    <string name="feature_settings_liveUpdateNotification">Live update notification</string>
+    <string name="feature_settings_currentLessons">Current classes</string>
+    <string name="feature_settings_liveUpdateNotification_description">The schedule of the selected group will be displayed in the notification drawer and on the lock screen</string>
+    <string name="feature_settings_design">Appearance</string>
+    <string name="feature_settings_design_description">Theme, blur</string>
+    <string name="feature_settings_notifications_scheduleChanges">Schedule changes</string>
+    <string name="feature_settings_notifications_broadcast">Announcements</string>
+    <string name="feature_settings_notificationsAreDisallowed">Notifications are disabled</string>
+    <string name="feature_settings_allow">Allow</string>
+    <string name="feature_settings_allowNotifications">Allow notifications</string>
+    <string name="feature_settings_wantToReceiveNotifications">Do you want to receive notifications?</string>
+    <string name="feature_settings_allowNotifications_description">We won\'t spam you. Notifications are needed so you can find out about schedule changes and view the schedule via Live Update notification</string>
+    <string name="feature_settings_userAgreement">User Agreement</string>
+    <string name="feature_settings_notifications">Notifications</string>
+    <string name="feature_settings_notifications_description">Current classes, announcements</string>
+    <string name="feature_settings_data">Data</string>
+    <string name="feature_settings_data_description">Teacher view, synchronization</string>
+    <string name="feature_settings_teacherView">Teacher view</string>
+    <string name="feature_settings_sync">Sync</string>
+    <string name="feature_settings_misc">Miscellaneous</string>
+    <string name="feature_settings_uiTheme">App theme</string>
+    <string name="feature_settings_uiTheme_auto">Auto</string>
+    <string name="feature_settings_uiTheme_dark">Dark</string>
+    <string name="feature_settings_uiTheme_light">Light</string>
+    <string name="feature_settings_blur">Blur</string>
+    <string name="feature_settings_blur_description">Blur interface elements</string>
+    <string name="feature_settings_highQualityBlur">High quality blur</string>
+    <string name="feature_settings_highQualityBlur_description">If you notice lag, disable this option for better performance</string>
+    <string name="feature_settings_noGroupsAvailable">No groups selected</string>
+    <string name="feature_settings_appVersionName">App version %s</string>
+    <string name="feature_settings_mobile_dev_name">Elisei Verevkin</string>
+    <string name="feature_settings_backend_dev">Kirill Pudov</string>
+    <string name="feature_settings_mobile_dev_role">App developer</string>
+    <string name="feature_settings_backend_dev_role">Telegram bot and backend developer</string>
+    <string name="feature_settings_syncAllGroups">Sync all groups</string>
+    <string name="feature_settings_syncAllGroups_description">The schedule of all groups will be updated when the app opens</string>
+
+    <string name="feature_teachers_teacherLastName">Teacher\'s last name</string>
+    <string name="feature_teachers_bookmarks">Saved</string>
+    <string name="feature_teachers_empty">Empty</string>
+    <string name="feature_teachers_iAmATeacher">I am a teacher</string>
+    <string name="feature_teachers_areYouATeacher">Are you a teacher?</string>
+    <string name="feature_teachers_areYouATeacher_description">The interface will switch to a convenient layout for teachers</string>
+    <string name="feature_teachers_selectTeacher">Select teacher</string>
+    <string name="feature_teachers_selectTeacher_description">Can be changed later</string>
+    <string name="feature_teachers_notSelected">Not selected</string>
+    <string name="feature_teachers_failedToLoadSchedule">Failed to load schedule</string>
+
+    <string name="feature_widget_description">Schedule</string>
+    <string name="feature_widget_design">Design</string>
+    <string name="feature_widget_save">Save</string>
+    <string name="feature_widget_theme">Colors</string>
+    <string name="feature_widget_group">Group</string>
+    <string name="feature_widget_theme_light">Light</string>
+    <string name="feature_widget_theme_dark">Dark</string>
+    <string name="feature_widget_theme_dynamic">Dynamic</string>
+    <string name="feature_widget_theme_auto">Auto</string>
+    <string name="feature_widget_noGroup">No group</string>
+    <string name="feature_widget_today">Today</string>
+    <string name="feature_widget_yesterday">Yesterday</string>
+    <string name="feature_widget_tomorrow">Tomorrow</string>
+    <string name="feature_widget_scheduleIsNotDownloaded">Schedule not downloaded</string>
+    <string name="feature_widget_download">Download</string>
+    <string name="feature_widget_select">Select</string>
+    <string name="feature_widget_selectGroup">Select group</string>
+    <string name="feature_widget_settings">Settings</string>
+    <string name="feature_widget_groupNotSelected">Group not selected</string>
+    <string name="feature_widget_refreshed">Updated %s</string>
+    <string name="feature_widget_crashError">An error occurred\nDelete the widget and create it again</string>
+    <string-array name="feature_widget_demo_subjects">
+        <item>Mathematics</item>
+        <item>Physical Education</item>
+        <item>Foreign Language</item>
+    </string-array>
+    <string-array name="feature_widget_demo_buildings">
+        <item>bldg. 1</item>
+        <item>bldg. 1</item>
+        <item>bldg. 2</item>
+    </string-array>
+    <string-array name="feature_widget_demo_classrooms">
+        <item>304</item>
+        <item> </item>
+        <item>240</item>
+    </string-array>
+
+    <string name="app_label_schedule">schedule</string>
+    <string name="app_label_students">students</string>
+    <string name="app_label_teachers">teachers</string>
+    <string name="app_label_settings">settings</string>
+
+    <string name="scheduleIsNotPublishedYet">Schedule is not published yet</string>
+    <string name="errorHappened">An error occurred</string>
+    <string name="noInternet">No internet connection</string>
+    <string name="nothingFound">Nothing found</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="time_now">Now</string>
+    <string name="feature_widget_transparency">Transparency</string>
+    <string name="feature_settings_shouldShowTomorrowSchedule_description">Show tomorrow\'s schedule if today\'s classes are already over</string>
+    <string name="feature_settings_shouldShowTomorrowSchedule">Show tomorrow\'s schedule</string>
+    <string name="feature_update_updateAvailable">Update available</string>
+    <string name="feature_update_downloading">Downloading…</string>
+    <string name="feature_update_updateFailed">Download again</string>
+    <string name="feature_update_pending">Download</string>
+    <string name="feature_update_install">Install</string>
+    <string name="feature_update_pleaseDontCloseTheApp">Please do not close the app</string>
+    <string name="feature_update_error">An error occurred during installation</string>
+    <string name="app_label_news">news</string>
+    <string name="feature_notifications_moreDetails">Details</string>
+    <string name="feature_notifications_markAsRead">Mark as read</string>
+    <string name="feature_notifications_all">All</string>
+    <string name="feature_notifications_unread">Unread</string>
+    <string name="feature_settings_widget">Schedule widget</string>
+    <string name="feature_settings_widget_description">Tap to add</string>
+    <string name="feature_widget_launcherNotSupportWidgetPinning">Your launcher does not support quick adding</string>
+    <string name="feature_news_noNews">No news yet</string>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+
+    <string name="today_at">Today at %s</string>
+    <string name="tomorrow_at">Tomorrow at %s</string>
+    <string name="feature_settings_liveUpdateNotification_notScheduled">Not scheduled</string>
+    <plurals name="in_days_at">
+        <item quantity="one">In %1$d day, at %2$s</item>
+        <item quantity="other">In %1$d days, at %2$s</item>
+    </plurals>
+</resources>
