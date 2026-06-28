@@ -4,8 +4,8 @@ build/
 .kotlin/
 
 # IDE files
-.idea/
-!.idea/icon.png
+.idea/*
+!.idea/.name
 !.idea/icon.svg
 *.iml
 
